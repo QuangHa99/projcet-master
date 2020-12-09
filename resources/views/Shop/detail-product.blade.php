@@ -156,7 +156,7 @@
                                                     <div class="rating_item" style="margin-top: 30px;position: relative">
 
                                                         <span class="fa fa-star" style="font-size: 100px;color: #fd9727;line-height: 40px; "></span>
-                                                        <b style="position: absolute;top: 50%;left: 50%;transform: translateX(-276%)translateY(-100%); color: white;font-size: 14px; "> 2.5</b>
+                                                        <b style="position: absolute;top: 50%;left: 50%;transform: translateX(-276%)translateY(-100%); color: white;font-size: 14px; "></b>
                                                     </div>
                                             </div>
                                             <div class="col-lg-7 padding-3 list_rating" style="margin-right: -97px;">

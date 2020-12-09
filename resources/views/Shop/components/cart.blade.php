@@ -84,7 +84,8 @@
                         </td>
                         <td class="cart_quantity text-center">
                             <div class="">
-                                <input min="1" class="cart-plus-minus item-qty" data-id="{{ $product['item']->id }}" data-num="{{ $product['qty'] }}" type="number" name="qty" value="{{ $product['qty'] }}">
+                            <input type="hidden" id="bbbb" value="{{$product['qty']}}">
+                                <input min="1" class="cart-plus-minus item-qty" data-id="{{ $product['item']->id }}" data-num="{{ $product['qty'] }}" type="number" name="qty" id="aaa" value="{{ $product['qty'] }}">
                             </div>
                         </td>
                         <td class="cart-total">
@@ -159,7 +160,6 @@
                 var product_id = $(this).attr('data-id');
                 var before_qty = $(this).attr('data-num');
                 var qty = $(this).val();
-
                 var value = $(this).val().replace(/^\s\s*/, '').replace(/\s\s*$/, '');
                 var intRegex = /^\d+$/;
                 if (qty <= 0 || !intRegex.test(value)) {
@@ -187,6 +187,7 @@
                     },
                     error: function (e) { // lỗi nếu có
                         console.log(e.message);
+                        $('#aaa').val($('#bbbb').val());
                         alert('Số lượng sản phẩm này hiện không đủ như yêu cầu của bạn!');
                     }
                 });

@@ -13,12 +13,12 @@
                                     <ul >
                                         <li>
 
-                                                <a>Liên Hệ</a>
+                                                <a href="http://viettelstore.com/lien-he">Liên Hệ</a>
                                         </li>
                                         <li>
 
 
-                                                <a>Tin Tức</a>
+                                                <a href="http://viettelstore.com/tin-tuc">Tin Tức</a>
 
                                         </li>
                                         <li>
@@ -82,7 +82,7 @@
                                     <ul class="" style="margin-top: 10px; padding-top: 5px">
                                         <li class="info-lefticon" >
 
-                                                <a href="https://www.facebook.com/VienCongNgheDevmaster25/notifications/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                                <a href="https://www.facebook.com/Havuongstore-107729977820189" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 
                                         </li>
                                         <li class="info-lefticon">

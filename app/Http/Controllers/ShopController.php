@@ -222,12 +222,10 @@ class ShopController extends GeneralController
 
         $view = Product::where([
             ['category_id', '=', $category->id],
-            ['total_number','=','COUNT()'],
-            ['total_rating','=','COUNT()'],
-            ['total_rating', '/','total_number'],
+            ['total_number','<>', 0]
 
         ])->orderBy('id', 'ASC')
-        ->orderBy('id', 'desc')
+        // ->orderBy('id', 'desc')
             ->limit(3)->get();
 
         // step 2 : lấy list SP liên quan
